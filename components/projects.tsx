@@ -9,46 +9,49 @@ import ecommImg from "../assets/e-comm-ezgif.com-resize.webp"
 import whereintheworldImg from "../assets/whereintheworld.webp"
 import digitalSolutionImg from "../assets/digitalSolution.webp"
 import dholeraImg from "../assets/dholrea.webp"
+import backtobedImg from "../assets/backtobed.jpeg"
+import tdImg from "../assets/td-site.jpeg"
+import lense from "../assets/lense-loop.jpeg"
 
 export function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Lense Loop",
       description:
-        "Developing a responsive and visually appealing e-commerce website using CSS3, Bootstrap 5, JavaScript, Node.js, and MongoDB.",
-      image: ecommImg,
-      tags: ["HTML", "CSS", "MongoDB", "Javascript", "Node JS"],
-      liveLink: "#",
-      githubLink: "https://github.com/sonu8826/Web-Portfolio/tree/main/ShopifyApp",
-    },
-    {
-      title: "Where in the World",
-      description:
-        " Developed a website using ReactJs where you can get the Information about all the countries in the world",
-      image: whereintheworldImg,
-      tags: ["React JS", "TypeScript", "Tailwind CSS", "Netlify", "Github"],
-      liveLink: "https://whereintheworld121.netlify.app/",
-      githubLink: "https://github.com/sonu8826/WhereIntheWorld",
-    },
-    {
-      title: "Digital Solution",
-      description:
-        "Developed a Next.js-based web application for digital business growth",
-      image: digitalSolutionImg,
-      tags: ["Next JS", "React.js", "Tailwind CSS", "Sanity CMS"],
-      liveLink: "https://digitalsolution.vercel.app/",
-      githubLink: "https://github.com/prathamdubey/digitalsolution",
+        "Rent Verified Camera Gear in Delhi NCR. You can rent camera gear from the website and get it delivered to your doorstep.",
+      image: lense,
+      tags: ["Next JS", "MongoDB", "Javascript", "Tailwind CSS", "Express"],
+      liveLink: "https://lenseloop.vercel.app/",
+      githubLink: "https://github.com/Inderjeet8826/Lenseloop",
     },
     {
       title: "Dholera Times",
       description:
-        "Dholera Times is a modern Next.js real estate website showcasing smart city properties with fast performance, responsiveness, and SEO optimization.",
+        "Real Estate Web Platform for Property Listings, Virtual Tours, and Client Management.",
       image: dholeraImg,
-      tags: ["React.js", "Next Js", "Sanity CMS", "Tailwind CSS", "whatsapp API"],
+      tags: ["Next JS", "Stripe", "MongoDB", "Javascript", "Tailwind CSS"],
       liveLink: "https://www.dholeratimes.com/",
       githubLink: "#",
+    },
+    {
+      title: "Back to Bed",
+      description:
+        "Developed a Shopify website for a mattress company, enhancing their online presence and customer experience.",
+      image: backtobedImg,
+      tags: ["Shopify"],
+      liveLink: "https://backtobed.com.au/", 
+      githubLink: "#",
+    },
+    {
+      title: "Truliy Digital",
+      description:
+        "Branding and Digital Marketing Agency Website with Portfolio and Service Showcase.",
+      image: tdImg,
+      tags: ["React.js", "Next Js", "Tailwind CSS", "cal API"],
+      liveLink: "https://www.dholeratimes.com/",
+      githubLink: "https://www.truliyo.com/",
     },
   ]
 
